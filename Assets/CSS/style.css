@@ -1,0 +1,23 @@
+body{
+background-image: url(../images/Movie_theater.jpg);
+background-color: black;
+background-size: 1200px 800px;
+padding:20px;
+}
+
+#mainSection{
+	position: absolute;
+	top: 10%;
+	 width: 500px;
+    height: 350px;
+    padding: 0px;
+    border: 3px solid red;
+	background-color: white;
+	margin-left: 315px;
+	text-align: center;
+
+
+}
+p{
+   margin-top: 0px;
+}
