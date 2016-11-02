@@ -48,6 +48,7 @@ function countdown() {
   } else {
     elem.innerHTML = timeLeft + ' seconds remaining';
     timeLeft--;
+
   }
 }
 
@@ -81,7 +82,7 @@ var getRadioValue = function(){
     }
     if (value== answers[i]){
         document.getElementById("myDiv4").innerHTML =
-            "That is correct. </br><button input type = "
+            "That is correct.</br><button input type = "
             +"'submit' onClick = 'loadContent()'> Next Question</button>";
     }
     else {
